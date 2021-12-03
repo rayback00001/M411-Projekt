@@ -1,4 +1,2 @@
-dsfadsbfdskbfds
-
-
-jude nahhhh
+#include <stdlib.h>
+#include <stdio.h>
