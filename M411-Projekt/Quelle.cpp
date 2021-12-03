@@ -14,6 +14,7 @@ structCards ListofCards();
 int main()
 {
 	printf("Diese welt sie gehört den juden nicht");
+	printf("Kek = ", ListofCards());
 }
 
 structCards ListofCards() {
@@ -136,4 +137,6 @@ structCards ListofCards() {
 
 	//nächstes Element
 	pCard10->pNext = NULL;
+
+	pStart->pNext = pCard10;
 }
