@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
+int plynorcanc;
+
 typedef struct Cards {
 	char Name[30];
 	int Wert1;
@@ -141,10 +143,21 @@ void Titelmenue() {
 	printf("-------------------\n");
 	printf("Willkommen im Spiel\n");
 	printf("--------------------\n");
-	printf("Spielen (1)");
-	scanf_s("");
-	printf("Beenden (2)");
-	printf(")
+	printf("Spielen (1) // Beenden (2)");
+	scanf_s("%i", &plynorcanc);
+
+	if (plynorcanc == 1) {
+
+	}
+
+	if (plynorcanc == 2) {
+
+	}
+	
+
+
+
+	
 
 	
 }
