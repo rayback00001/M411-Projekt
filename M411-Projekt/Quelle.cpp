@@ -14,129 +14,126 @@ structCards ListofCards();
 int main()
 {
 	
-	printf("Kek = ", ListofCards());
+	ListofCards();
 }
 
 structCards ListofCards() {
-	structCards* pCard1 = (structCards*)malloc(sizeof(structCards));	//Pointer auf Struktur und gleichzeitig wird Arbeitsspeicher reserviert
-	structCards* pStart = pCard1;
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	//Pointer auf Struktur und gleichzeitig wird Arbeitsspeicher reserviert
+	structCards* pStart = pCard;									//Anfang Element
 
 	//Informationen einfüllen
-	strcpy_s(pCard1->Name, "Character1");
-	pCard1->Wert1 = 1;
-	pCard1->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character1");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard1->pNext = NULL;
+	pCard->pNext = NULL;
 
-	structCards* pCard2 = (structCards*)malloc(sizeof(structCards));	 //Element 2 (Card2)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 2 
 
 	//Informationen einfüllen
-	strcpy_s(pCard2->Name, "Character2");
-	pCard2->Wert1 = 1;
-	pCard2->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character2");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard2->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
-	structCards* pCard3 = (structCards*)malloc(sizeof(structCards));	 //Element 3 (Card3)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 3 
 
 	//Informationen einfüllen
-	strcpy_s(pCard3->Name, "Character3");
-	pCard3->Wert1 = 1;
-	pCard3->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character3");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard3->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
-
-	structCards* pCard4 = (structCards*)malloc(sizeof(structCards));	 //Element 4 (Card4)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 4 
 
 	//Informationen einfüllen
-	strcpy_s(pCard4->Name, "Character4");
-	pCard4->Wert1 = 1;
-	pCard4->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character4");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard4->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
-	structCards* pCard5 = (structCards*)malloc(sizeof(structCards));	 //Element 5 (Card5)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 5 
 
 	//Informationen einfüllen
-	strcpy_s(pCard5->Name, "Character5");
-	pCard5->Wert1 = 1;
-	pCard5->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character5");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard5->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
-	structCards* pCard6 = (structCards*)malloc(sizeof(structCards));	 //Element 6 (Card6)
+	structCards* pCard6 = (structCards*)malloc(sizeof(structCards));	 //Element 6 
 
 	//Informationen einfüllen
-	strcpy_s(pCard6->Name, "Character1");
-	pCard6->Wert1 = 1;
-	pCard6->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character1");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard6->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
 
-	structCards* pCard7 = (structCards*)malloc(sizeof(structCards));	 //Element 7 (Card7)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 7
 
 	//Informationen einfüllen
-	strcpy_s(pCard7->Name, "Character8");
-	pCard7->Wert1 = 1;
-	pCard7->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character8");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard7->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
-	structCards* pCard8 = (structCards*)malloc(sizeof(structCards));	 //Element 8 (Card8)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 8 
 
 	//Informationen einfüllen
-	strcpy_s(pCard8->Name, "Character8");
-	pCard8->Wert1 = 1;
-	pCard8->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character8");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard8->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
-	structCards* pCard8 = (structCards*)malloc(sizeof(structCards));	 //Element 8 (Card8)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 9 
 
 	//Informationen einfüllen
-	strcpy_s(pCard8->Name, "Character1");
-	pCard8->Wert1 = 1;
-	pCard8->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character1");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard8->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
-	structCards* pCard9 = (structCards*)malloc(sizeof(structCards));	 //Element 9 (Card9)
+	structCards* pCard = (structCards*)malloc(sizeof(structCards));	 //Element 10
 
 	//Informationen einfüllen
-	strcpy_s(pCard9->Name, "Character9");
-	pCard9->Wert1 = 1;
-	pCard9->Wert2 = 2;
+	strcpy_s(pCard->Name, "Character9");
+	pCard->Wert1 = 1;
+	pCard->Wert2 = 2;
 
 	//nächstes Element
-	pCard9->pNext = NULL;
+	pCard->pNext = NULL;
+	pStart->pNext = pCard;
 
 
-
-	structCards* pCard10 = (structCards*)malloc(sizeof(structCards));	 //Element 10 (Card10)
-
-	//Informationen einfüllen
-	strcpy_s(pCard10->Name, "Character10");
-	pCard10->Wert1 = 1;
-	pCard10->Wert2 = 2;
-
-	//nächstes Element
-	pCard10->pNext = NULL;
-
-	pStart->pNext = pCard10;
 }
+
