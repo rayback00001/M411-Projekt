@@ -3,7 +3,7 @@
 
 int main()
 {
-	printf("Diese welt sie gehört den juden nicht");
+	
 }
 
 
@@ -12,4 +12,5 @@ typedef struct Cards {
 	int Wert1;
 	double Wert2;
 	struct Cards* pNext;
+
 }structCards;
