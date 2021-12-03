@@ -1,4 +1,4 @@
-#include <stdlib.h>
+ï»¿#include <stdlib.h>
 #include <stdio.h>
 
 
@@ -10,7 +10,7 @@
 
 
 
-dise welt diese welt sie gehört den girls girls git
+dise welt diese welt sie gehï¿½rt den girls girls git
 
 
 
@@ -20,3 +20,14 @@ dise welt diese welt sie gehört den girls girls git
 
 
 
+
+
+
+
+
+
+
+
+
+
+yanic war hier nicht
