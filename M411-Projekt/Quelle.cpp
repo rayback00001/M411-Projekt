@@ -144,6 +144,7 @@ void Titelmenue() {
 	printf("Spielen (1)");
 	scanf_s("");
 	printf("Beenden (2)");
+	printf(")
 
 	
 }
