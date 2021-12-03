@@ -1,7 +1,22 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-sheesh s
 
 
-JUDEEEEEEEEEEEEEEEEEE
+
+
+
+
+
+
+
+dise welt diese welt sie gehört den girls girls git
+
+
+
+
+
+
+
+
+
