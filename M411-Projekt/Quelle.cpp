@@ -1,17 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-sheesh s
+int main()
+{
 
-
-
-
-
-
-
-
-
-
-
-
-yanic war hier nicht
+}
