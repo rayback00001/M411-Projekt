@@ -10,6 +10,7 @@ typedef struct Cards {
 }structCards;
 
 structCards ListofCards();
+void Titelmenue();
 
 int main()
 {
