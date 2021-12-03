@@ -15,6 +15,7 @@ int main()
 {
 	
 	printf("Kek = ", ListofCards());
+	
 }
 
 structCards ListofCards() {
