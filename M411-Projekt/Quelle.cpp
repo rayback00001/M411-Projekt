@@ -14,8 +14,8 @@ void Titelmenue();
 
 int main()
 {
-	
-	ListofCards();
+	Titelmenue();
+
 }
 
 structCards ListofCards() {
@@ -137,4 +137,10 @@ structCards ListofCards() {
 
 
 }
-
+void Titelmenue() {
+	printf("-------------------\n");
+	printf("Willkommen im Spiel\n");
+	printf("--------------------\n");
+	printf("Spielen (1)");
+	printf("Beenden (2)");
+}
